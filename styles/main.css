@@ -1,17 +1,26 @@
 *{ -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box}
 
-html, body {border: 0; padding: 0; margin: 0;}
+html, body {border: 0;}
 body {
-	/* background-color: lightskyblue; */
   background-color: whitesmoke;
 }
 
-#header-banner-div { position: absolute; display: block; clear: both; width: 100%; height: 15em; top: 0; text-align: center;}
+#header-banner-div { position: relative; display: block; width: 80%; height: 15em; top: 0; text-align: center; margin-left: auto; margin-right: auto;}
 img#header-banner-image { top: 0; height: 100%; border: 0; margin: 0; margin-left: auto; margin-right: auto;}
 
-h1 {margin-top: 9em; text-align: center;}
+h1 {text-align: center;}
 
-nav {text-align: center;}
+p {max-width: 40em; text-align: center; margin-left: auto; margin-right: auto; position: relative;}
+
+#box-model-image-holder { display: block; clear:both; position: relative; height: 13em; text-align: center;}
+
+nav {text-align: center; right: 3em; top: 3em; position: fixed;}
 ul {list-style-type: none; margin:0; padding:0;}
 
-ul li {margin: 0; padding: 0;}
+ul li {margin: 0; padding: 0}
+
+a {text-decoration: none;}
+
+#box-model-image {border: 0.2em solid black;}
+
+div {position: relative; display: block; margin: 0; padding: 0;}
