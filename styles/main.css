@@ -25,6 +25,6 @@ a {text-decoration: none;}
 
 div {position: relative; display: block; margin: 0; padding: 0;}
 
-code {display: inline-block; padding: 0.05em; background-color: lightskyblue; border: 0.1em dotted black}
+code {display: inline-block; padding: 0.1em; background-color: lightskyblue; border: 0.1em dotted black; border-radius: 0.2em;}
 
-h1 code {padding: 0.1em;}
+h1 code {padding: 0.1em; border-radius: 0.2em; }
