@@ -1,6 +1,6 @@
 *{ -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box}
 
-html, body {border: 0;}
+html, body {border: 0; font-size: 1.1em;}
 body {
   background-color: whitesmoke;
 }
@@ -15,9 +15,9 @@ p {max-width: 40em; text-align: center; margin-left: auto; margin-right: auto; p
 #box-model-image-holder { display: block; clear:both; position: relative; text-align: center;}
 
 nav {text-align: center; right: 3em; top: 3em; position: fixed;}
-ul {list-style-type: none; margin:0; padding:0;}
+nav ul {list-style-type: none; margin:0; padding:0;}
 
-ul li {margin: 0; padding: 0}
+nav ul li {margin: 0; padding: 0}
 
 a {text-decoration: none;}
 
@@ -30,3 +30,9 @@ code {display: inline-block; padding: 0.1em; background-color: lightskyblue; bor
 h1 code {padding: 0.1em; border-radius: 0.2em; }
 
 #header-banner-image, #box-model-image {border-radius: 0.5em; }
+
+li.deans-learning-plan-writing-response {background-color: rgb(95, 163, 157); padding: 0.4em; border: 0.15em solid darkgray}
+
+ul li {max-width: 35em; margin: 0.4em; border-radius: 0.7em;}
+
+ul.center {width: 44em; margin-left: auto; margin-right: auto;}
