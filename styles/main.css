@@ -33,8 +33,6 @@ h1 code {padding: 0.1em; border-radius: 0.2em; }
 
 #header-banner-image, #box-model-image {border-radius: 0.5em; }
 
-li.deans-learning-plan-writing-response {background-color: rgb(95, 163, 157); padding: 0.4em; border: 0.15em solid darkgray}
-
-ul li {max-width: 35em; margin: 0.4em; border-radius: 0.7em;}
+li.deans-learning-plan-writing-response {background-color: rgb(95, 163, 157); padding: 0.4em; border: 0.15em solid darkgray; max-width: 35em; margin: 0.4em; border-radius: 0.7em;}
 
 ul.center {width: 44em; margin-left: auto; margin-right: auto;}
