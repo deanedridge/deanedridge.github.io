@@ -19,6 +19,8 @@ nav ul {list-style-type: none; margin:0; padding:0;}
 
 nav li a:hover {background-color: deepskyblue; display: block;}
 
+nav li {margin: .25em;}
+
 a {text-decoration: none;}
 
 #box-model-image { height: 100%; border: 0.2em solid black;}
@@ -31,7 +33,7 @@ h1 code {padding: 0.1em; border-radius: 0.2em; }
 
 #header-banner-image, #box-model-image {border-radius: 0.5em; }
 
-li.deans-learning-plan-writing-response {background-color: rgb(95, 163, 157); padding: 0.4em; border: 0.15em solid darkgray; max-width: 35em; margin: 0.4em; border-radius: 0.55em;}
+li.deans-writing-response {background-color: rgb(95, 163, 157); padding: 0.4em; border: 0.15em solid darkgray; max-width: 35em; margin: 0.4em; border-radius: 0.55em;}
 
 ul.center {width: 44em; margin-left: auto; margin-right: auto;}
 
